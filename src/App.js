@@ -15,10 +15,9 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route path = "/" component = { ProductList }>
-          </Route>
+          <Route path = "/" component = { ProductList }></Route>
+          <Route path = "/details" component = {Details}></Route>
         </Switch>
-        <Details />
         <Cart />
         <Default />
       </React.Fragment>

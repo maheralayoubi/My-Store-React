@@ -6,7 +6,7 @@ import { ButtonContainer} from './Button'
 
 export default class Navbar extends Component {
     render() {
-        return(
+        return (
             <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
                 {/* 
                 https://www.iconfinder.com/icons/1243689/call_phone_icon
